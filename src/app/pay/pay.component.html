@@ -1,0 +1,109 @@
+<section id=nav-bar>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#"><img src="../../assets/Hotel-Logo.PNG" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nave-item active"><a class="nav-item nav-link active" href="#">HOTEL</a>
+          </li>
+          
+          <li class="nave-item active"><a class="nav-item nav-link" routerLink='/rooms-booking'>ROOMS</a>
+          </li> 
+          
+          <li class="nave-item active"><a class="nav-item nav-link" routerLink='/area-attraction'>AREA ATTRACTION</a>
+          </li>
+          <li class="nave-item active"><a class="nav-item nav-link"  routerLink='/dining'>DINING</a>
+          </li>
+          <li class="nave-item active"><a class="nav-item nav-link" routerLink='/photos'>PHOTOS + REVIEW</a>
+          </li>
+       
+          
+          <li class="nave-item"><a class="nav-link" routerLink='/bookings'>BOOKINGS</a>
+          </li>
+        </ul>
+        </div>
+        </nav>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      <div class="row">
+        <div class="col-58">
+          <h3>Billing Address</h3><br>
+          <label for="fname"><i class="fa fa-user"></i>Full Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ofentse P. Done">
+
+          <label for="email"><i class="fa fa-envelope"></i>Email</label>
+          <input type="text" id="email" name="email" placeholder="Ofentse@example.com">
+
+          <label for="adr"><i class="fa fa-address-card"></i></label>
+          <input type="text" id="adr" name="address" placeholder=" 103 Nkhatle Street">
+
+          <label for="city"><i class="fa fa-institution"></i>City</label>
+          <input type="text" id="city" name="city" placeholder="Johannesburg"><br>
+
+          <div class="row">
+            <div class="col-50">
+              <label for="state">State</label>
+              <input type="text" id="state" name="state" placeholder="PP">
+            </div>
+            <div class="row">
+                <div class="col-50">
+                  <label for="state">Zip</label>
+                  <input type="text" id="Zip" name="Zip" placeholder="10001">
+                </div>
+          </div>
+        </div>
+        <div class="col-50">
+          <h3>Payments</h3>
+          <label for="fname">Accept Card</label>
+          <div class="icon-container">
+            <i class="fa fa-cc-visa" style="color: navy;"></i>
+            <i class="fa fa-cc-amex" style="color:blue;"></i>
+            <i class="fa fa-cc-mastercard" style="color: red;"></i>
+            <i class="fa fa-cc-discover" style="color: orange;"></i>
+            
+
+          </div>
+          <label for="cname">Name on Card</label>
+          <input type="text" id="cname" name="cardnumber" placeholder="john more done">
+
+          <label for="ccnum">Credit Card</label>
+          <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+
+          <label for="expmonth">Exp Month</label>
+          <input type="text" id="expmonth" name="expmonth" placeholder="August">
+          <div class="row">
+            <div class="col-50">
+              <label for="expyear">Exp Year</label>
+              <input type="text" id="expyear" name="expyear" placeholder="2019">
+            </div>
+            <div class="col-50">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" name="cvv" placeholder="532">
+            </div>
+          </div>
+
+        </div>
+        
+        <input type="submit" value="Continue" class="btn">
+      </div>
+      </div>
+      </form>
+      
+     <div class="col-25">
+      <div class="container">
+      <h4>Card<span class="price" style="color: black"><i class="fa fa-shopping-cart"></i><b>4</b></span></h4>
+      <p><a href="#">1 King Bedroom</a><span class="price">R1 500</span></p>
+      <p><a href="#">1 Queen Bedroom</a><span class="price">R1 200</span></p>
+      <p><a href="#">2 Twin Beds with Club Access</a><span class="price">R1 000</span></p>
+      <p><a href="#">1 King Bed with Club Access</a><span class="price">R1 800</span></p>
+      <hr>
+      <p>Total<span class="price" style="color: black"><b>R5 500</b></span></p>
+      </div> 
+     </div>
+    
+
+</div>
